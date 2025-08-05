@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="mini.css">
+</head>
+<body>
+    <header>
+    <div class="navbar">    
+            <div class="logo">
+                <a href="projectpage.html">
+                    <img src="SHAGUN-modified.png" alt="error" class="logo-img"/>
+                </a>
+            </div>
+            <div class="hamburger" onclick="togglemenu(this)">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="navlinks">
+            <li><a href="homepage.html" target="_self">Home</a></li>    
+            <li><a href="services.html" target="_self">Services</a></li>
+            <li class="active"><a href="projectpage.html" target="_self">Projects</a></li>
+            <li><a href="aboutus.html" target="_self">About Us</a></li>
+            <li><a href="career.html" target="_self">Careers</a></li>
+            <li><a href="contactpage.html" target="_self">Contact</a></li>
+            </ul>
+            <a href="tel:+91 9651123474" class="call-btn">Call Now!</a>
+    </div>
+    </header>
+    
+    <div class="pro">
+       <h1>Our Projects</h1>
+       <p>Delivering excellence in every structure we build from commercial towers to residential communities.</p>
+    <section class="hero-projects">
+    <h2>Featured Projects</h2>
+    <div class="project-main">
+        <div class="project-card">
+            <img src="tower.webp" alt="Commercial Tower">
+            <h3>Infinity Corporate Tower</h3>
+            <p>A 25-storey commercial marvel in Noida Sector-62 with sustainable design and modern interiors.</p>
+        </div>
+        <div class="project-card">
+            <img src="residential.webp" alt="Residential Complex">
+            <h3>Green Valley Residency</h3>
+            <p>Luxury living meets nature in this 500-apartment residential township located in Lucknow.</p>
+        </div>
+        <div class="project-card">
+            <img src="agro.webp" alt="Industrial Plant">
+            <h3>Shagun Agro Plant</h3>
+            <p>A state-of-the-art agro-processing unit developed for Shagun Foods Pvt. Ltd. in Kanpur.</p>
+        </div>
+    </div>
+</section>
+<section class="project-types">
+    <h2>Our Expertise</h2>
+    <ul>
+        <li>✔️ Commercial Buildings</li>
+        <li>✔️ Residential Communities</li>
+        <li>✔️ Industrial Units</li>
+        <li>✔️ Institutional Structures</li>
+        <li>✔️ Renovation & Interiors</li>
+    </ul>
+</section>
+</div>
+    
+    <footer class="company-footer">
+    <div class="footer-overlay">
+        <div class="footer-text">
+            <h3>Who We Are</h3>
+            <h2><span>About</span> Our Company</h2>
+            <p>
+                At Shagun Construction, we are committed to building structures that stand the best of time.
+                Since our inception, we've combined quality, innovation, and reliability to bring every project to life.
+                Our mission is to create spaces that inspire, support, and grow communities.
+            </p>
+            <div class="footer-stats">
+                <div>
+                    <h1>1990</h1>
+                    <p>Year of Establishment</p>
+                </div>
+                <div>
+                    <h1>282</h1>
+                    <p>Projects Completed</p>
+                </div>
+                <div>
+                    <h1>150</h1>
+                    <p>Professional Employees</p>
+                </div>
+                <div>
+                    <h1>35</h1>
+                    <p>Business Partners</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>function togglemenu(element){
+    element.classList.toggle("active");
+    document.getElementById("navlinks").classList.toggle("active");
+}</script>
+</body>
+</html>
