@@ -40,7 +40,7 @@ header{
 
 .nav-links{
     list-style:none;
-    display:flex;
+    display:none;
     gap:20px;
 }
 
@@ -56,12 +56,13 @@ header{
 }
 .nav-links.active{
     display:flex;
+    
 }
-.nav-links li.active{
-    border-bottom: 2px solid orange;
+.nav-links li a:hover:not(.active){
+   border-bottom:2px solid orange;
 }
 .nav-links li a.active{
-    border-bottom: 2px solid orange;
+    border-bottom:none;
 }
 .call-btn{
     background: orange;
@@ -271,8 +272,14 @@ header{
     text-align: center;
     margin:10px 0;
   }
+  .nav-links li a.active {
+    border-bottom: 2px solid orange;
+  }
   .call-btn{
-    display: none;
+    display:inline-block;
+    position:absolute;
+    right:10px;
+    top:15px;
   }
     .home-content,
   .home1-content,
